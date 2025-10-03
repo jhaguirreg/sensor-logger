@@ -116,11 +116,4 @@ Esto elimina los objetos compilados de /build.
 
 - El "sensor" está simulado usando la función rand() de C, inicializada con srand(time(NULL)).
 
-- Las lecturas generadas son enteros entre 0 y 99.# Mock Sensor Logger Service
-
-- Este proyecto implementa un **servicio systemd** que registra periódicamente un sensor simulado en un archivo de log.  
-
-- El programa está escrito en **C** y corre como un daemon, mostrando un **timestamp ISO-8601 | valor simulado**.
-
----
-
+- Las lecturas generadas son enteros entre 0 y 99.
